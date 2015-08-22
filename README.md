@@ -5,7 +5,7 @@ This application is an java project developed in Eclipse. It will be used to tra
 6 people's data was collected and put  [here](https://github.com/miworking/TrainModel/tree/master/data/pickupData), if it needs t to run in a local file system, change the path to these data in [OnePersonData.java] (https://github.com/miworking/TrainModel/blob/master/src/pattern/OnePersonData.java#L110-L147)
 
 
-#### Output file: 
+#### Output
 an arff file, the path of it can be changed [here](https://github.com/miworking/TrainModel/blob/master/src/pattern/OnePersonData.java#L108):
 
 `tofile = "/Users/julie/pickupData/training.arff";`
