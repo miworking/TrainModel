@@ -18,7 +18,7 @@ Then this file can be imported in Weka, and a random forest model can be trained
 1. 104 features
 {Accelerometer, Magnetic} * {X,Y,Z,Magnitude} * {Mean, Std, Min, Max, Percentile25,50,75, FTT[0,1,2]}
 2. data of 6 people, 547 instances
-3. Cross -validation on training set: 98% correctly classified (RandomForest, 10 folders)
+3. Cross -validation on training set: 98% correctly classified (RandomForest, 10 folders) more details can be found [here](https://www.dropbox.com/s/bnvwc62nh7kt24q/Pickup.pptx?dl=0)
 
 
 
