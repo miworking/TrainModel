@@ -7,6 +7,7 @@ This application is an java project developed in Eclipse. It will be used to tra
 
 #### Output file: 
 an arff file, the path of it can be changed [here](https://github.com/miworking/TrainModel/blob/master/src/pattern/OnePersonData.java#L108):
+
 `tofile = "/Users/julie/pickupData/training.arff";`
 
 
