@@ -28,7 +28,7 @@ It will calculate 104 feature from collected Accelerometer and Magnetic data
 [{Accelerometer, Magnetic} * {X,Y,Z,Magnitude} * {Mean, Std, Min, Max, Percentile25,50,75, FTT[0,1,2]}]
 
 
-#### Related Classes
+#### Data structure
 All data related classes will be placed in [***pattern***](https://github.com/miworking/XFactor_PickupRecognition/tree/master/app/src/main/java/edu/cmu/ebiz/pickup/pattern) package
 
 - [DoubleFeatureUnit]
