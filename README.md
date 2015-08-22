@@ -17,7 +17,7 @@ other people's data will be marked as "others",so the second parameter of this m
 [`onepersondata.readFromFolder(readpath, "0");`](https://github.com/miworking/TrainModel/blob/master/src/pattern/OnePersonData.java#L121)
 
 
-Then this file can be imported in Weka, and a random forest model can be trained on it.
+After arff file is generated, it can be imported to Weka and a random forest model can be trained on it.
 
 
 #### Result of cross validation:
