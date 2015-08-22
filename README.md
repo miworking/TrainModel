@@ -1,5 +1,5 @@
 # TrainModel
-This application is an java project developed in Eclipse. It will be used to train a *Random Forest* model that will be loaded later an Android app: [Pickup](https://github.com/miworking/TrainModel)
+This application is an java project developed in Eclipse. It will be used to train a *Random Forest* model that will be loaded later an Android app: [Pickup](https://github.com/miworking/XFactor_Pickup)
 
 #### Input
 6 people's data was collected and put  [here](https://github.com/miworking/TrainModel/tree/master/data/pickupData), if it needs to run in local file system, change the path to these data in [OnePersonData.java] (https://github.com/miworking/TrainModel/blob/master/src/pattern/OnePersonData.java#L110-L147)
