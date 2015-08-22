@@ -10,7 +10,14 @@ an arff file, the path of it can be changed [here](https://github.com/miworking/
 
 `tofile = "/Users/julie/pickupData/training.arff";`
 
-Then this file can be imported in Weka, and a random forest model can be trained in it.
+Here Zhoumi's data will be marked as "owner", so  the second parameter of this method is "1"
+[`onepersondata.readFromFolder(readpath, "1");`] (https://github.com/miworking/TrainModel/blob/master/src/pattern/OnePersonData.java#L113)
+
+other people's data will be marked as "others",so the second parameter of this method is "0:
+[`onepersondata.readFromFolder(readpath, "0");`](https://github.com/miworking/TrainModel/blob/master/src/pattern/OnePersonData.java#L121)
+
+
+Then this file can be imported in Weka, and a random forest model can be trained on it.
 
 
 #### Result of cross validation:
