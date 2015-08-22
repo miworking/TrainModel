@@ -13,6 +13,14 @@ an arff file, the path of it can be changed [here](https://github.com/miworking/
 Then this file can be imported in Weka, and a random forest model can be trained in it.
 
 
+#### Result of cross validation:
+ 
+1. 104 features
+{Accelerometer, Magnetic} * {X,Y,Z,Magnitude} * {Mean, Std, Min, Max, Percentile25,50,75, FTT[0,1,2]}
+2. data of 6 people, 547 instances
+3. Cross -validation on training set: 98% correctly classified (RandomForest, 10 folders)
+
+
 
 #### Data format and related features
 It will calculate 104 feature from collected Accelerometer and Magnetic data
