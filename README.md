@@ -10,6 +10,9 @@ an arff file, the path of it can be changed [here](https://github.com/miworking/
 
 `tofile = "/Users/julie/pickupData/training.arff";`
 
+Then this file can be imported in Weka, and a random forest model can be trained in it.
+
+
 
 #### Data format and related features
 It will calculate 104 feature from collected Accelerometer and Magnetic data
